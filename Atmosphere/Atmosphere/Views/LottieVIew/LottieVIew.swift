@@ -36,8 +36,8 @@ struct LottieView: UIViewRepresentable {
     
 }
 
-//struct LottieVIew_Previews: PreviewProvider {
-//    static var previews: some View {
-//        LottieVIew()
-//    }
-//}
+struct LottieVIew_Previews: PreviewProvider {
+    static var previews: some View {
+        LottieVIew()
+    }
+}
