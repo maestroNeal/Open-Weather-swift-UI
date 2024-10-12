@@ -36,7 +36,6 @@ final class CityViewModel : ObservableObject {
     
     init(){
         getLocation()
-        
     }
     var date: String {
         return dateFormatter.string(from: Date(timeIntervalSince1970: TimeInterval(weather.current.dt)))
