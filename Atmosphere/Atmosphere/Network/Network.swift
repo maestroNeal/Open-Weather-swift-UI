@@ -8,5 +8,5 @@
 import Foundation
 
 struct Network {
-    static let key = "53c75debf15707759b83e4d99c264107"
+    static let key = "bf9f39da0148ebfd312865bb26247674"
 }

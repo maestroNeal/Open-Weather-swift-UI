@@ -10,7 +10,7 @@ import CoreLocation
 
 final class CityViewModel : ObservableObject {
     @Published var weather = WeatherResponse.empty()
-    @Published var city: String = "Bareilly" {
+    @Published var city: String = "Noida" {
         didSet {
             // call get location here
             getLocation()
@@ -44,7 +44,7 @@ final class CityViewModel : ObservableObject {
         if weather.current.weather.count > 0 {
             return weather.current.weather[0].icon
         }
-        return "sun.max.fill"
+        return "summer"
     }
     var tempareture: String{
         return HelperFunction().getTempFor(temp: weather.current.temp)
@@ -54,7 +54,7 @@ final class CityViewModel : ObservableObject {
         if weather.current.weather.count > 0 {
             return weather.current.weather[0].main
         }
-        return ""
+        return "unknow!"
     }
     
     var windSpeed: String {
@@ -69,10 +69,9 @@ final class CityViewModel : ObservableObject {
         return String(format: "%0.0f%%", weather.current.dew_point)
     }
     
-    func getDayFor(timetamp: Int) ->String {
-        return dayFormtter.string(from: Date(timeIntervalSince1970: TimeInterval(timetamp)))
+    func getDayFor(timeStamp: Int) -> String{
+        return dayFormtter.string(from: Date(timeIntervalSince1970: TimeInterval(timeStamp)))
     }
-    
     
     private func getLocation(){
         CLGeocoder().geocodeAddressString(city) { (placeMarks, error) in
@@ -90,7 +89,7 @@ final class CityViewModel : ObservableObject {
             getWeatherData(city: city, from: urlString)
         }else{
             //unable to get coordinate
-            let urlString = Network.getUrlWithLatLong(lat: 0.00, lon: 0.00) // demo cordinates
+            let urlString = Network.getUrlWithLatLong(lat: 50.0755, lon: 14.418540) // demo cordinates
             getWeatherData(city: city, from: urlString)
             
         }
@@ -120,7 +119,7 @@ class HelperFunction: NSObject {
         return String(format: "%0.2f", temp)
     }
     
-    func getTimeFor(time: Double) ->String {
+    func getTimeFor(time: Int) ->String {
         return String(format: "%0.1f", time)
     }
     
@@ -134,16 +133,13 @@ class HelperFunction: NSObject {
         
     }
     
-    func getWeatherIconFor(icon: String) -> String {
+    func getWeatherIconFor(icon: String) -> Image {
         switch icon {
         case "01d":
-            return "sun.fill.max"
+            return Image(systemName: "sun.fill.max")
         default:
-            return "moon.fill"
+            return Image(systemName: "moon.fill")
         }
         
     }
-    
-    
-    
 }
