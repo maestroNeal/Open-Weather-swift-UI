@@ -62,37 +62,37 @@ extension Weather {
     }
 }
 
-    class WeatherSubclass: Weather {
-        var sunset: Int
-        var sunrise: Int
-
-        enum CodingKeys: String {
-            case sunset
-            case sunrise
-        }
-
-        override init() {
-
-            self.sunset = 0
-            self.sunrise = 0
-            super.init()
-            self.dt = dt
-            self.temp = temp
-            self.feel_like = feel_like
-            self.pressure = pressure
-            self.humidity = humidity
-            self.dew_point = dew_point
-            self.uvi = uvi
-            self.clouds = clouds
-            self.visibility = visibility
-            self.wind_speed = wind_speed
-            self.wind_deg = wind_deg
-            self.wind_gust = wind_gust
-            self.weather = weather
-        }
-        
-        required init(from decoder: Decoder) throws {
-            fatalError("init(from:) has not been implemented")
-        }
-        
-    }
+//    class WeatherSubclass: Weather {
+//        var sunset: Int
+//        var sunrise: Int
+//
+//        enum CodingKeys: String {
+//            case sunset
+//            case sunrise
+//        }
+//
+//        override init() {
+//
+//            self.sunset = 0
+//            self.sunrise = 0
+//            super.init()
+//            self.dt = dt
+//            self.temp = temp
+//            self.feel_like = feel_like
+//            self.pressure = pressure
+//            self.humidity = humidity
+//            self.dew_point = dew_point
+//            self.uvi = uvi
+//            self.clouds = clouds
+//            self.visibility = visibility
+//            self.wind_speed = wind_speed
+//            self.wind_deg = wind_deg
+//            self.wind_gust = wind_gust
+//            self.weather = weather
+//        }
+//        
+//        required init(from decoder: Decoder) throws {
+//            fatalError("init(from:) has not been implemented")
+//        }
+//        
+//    }
