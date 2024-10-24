@@ -43,7 +43,8 @@ final class NetworkManager<T: Codable> {
 }
 
 enum NetworkErr : Error {
-    case invalidURIError
+    case internetNotFound
+    case invalidURLError
     case invalidData
     case invalidResponse
     case error(err: String)

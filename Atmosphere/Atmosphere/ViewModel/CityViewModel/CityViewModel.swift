@@ -10,7 +10,7 @@ import CoreLocation
 
 final class CityViewModel : ObservableObject {
     @Published var weather = WeatherResponse.empty()
-    @Published var city: String = "Noida" {
+    @Published var city: String = "Unknown" {
         didSet {
             // call get location here
             getLocation()
@@ -76,7 +76,9 @@ final class CityViewModel : ObservableObject {
     private func getLocation(){
         CLGeocoder().geocodeAddressString(city) { (placeMarks, error) in
             if let places = placeMarks, let place = places.first {
+                //self.city = place.locality! as String
                 self.getWeather(coordinates: place.location?.coordinate)
+                print(place.country)
             }
             
         }
@@ -85,6 +87,7 @@ final class CityViewModel : ObservableObject {
     
     private func getWeather(coordinates: CLLocationCoordinate2D? ){
         if let coordinates = coordinates {
+            print("my lat : \(coordinates.latitude), long : \(coordinates.longitude)")
             let urlString = Network.getUrlWithLatLong(lat: coordinates.latitude, lon: coordinates.longitude)
             getWeatherData(city: city, from: urlString)
         }else{
@@ -101,6 +104,7 @@ final class CityViewModel : ObservableObject {
             case .success(let success):
                 DispatchQueue.main.async {
                     self.weather = success
+                    print(self.weather)
                 }
             case .failure(let failure):
                 print(failure.localizedDescription)
@@ -108,12 +112,30 @@ final class CityViewModel : ObservableObject {
             
         }
     }
+    /*
+     
+     00 01
+     11 10
+     
+     */
+//    func checkDataInloop (from n : Int){
+//        while (n>0){
+//            n = n - 1
+//            for i in 0...n-1 {
+//                for j in 0...1 {
+//                    
+//                }
+//            }
+//        }
+//        
+//    }
     
     
     
 }
 
 class HelperFunction: NSObject {
+    
     
     func getTempFor(temp: Double) -> String {
         return String(format: "%0.2f", temp)

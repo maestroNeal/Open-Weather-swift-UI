@@ -6,8 +6,15 @@
 //
 
 import Foundation
-struct WeatherDetails: Codable {
+
+class WeatherDetails: Codable {
     var main: String
     var description: String
     var icon: String
+    
+    init(main: String, description: String, icon: String) {
+        self.main = main
+        self.description = description
+        self.icon = icon
+    }
 }

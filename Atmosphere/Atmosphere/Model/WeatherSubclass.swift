@@ -11,7 +11,7 @@ class WeatherSubclass: Weather {
     var sunset: Int
     var sunrise: Int
     
-    enum CodingKeys: String {
+    enum CodingKeys: String, CodingKey {
         case sunset
         case sunrise
     }
@@ -23,10 +23,20 @@ class WeatherSubclass: Weather {
     }
     
     required init(from decoder: Decoder) throws {
-        fatalError("init(from:) has not been implemented")
-        //try super.init(from: decoder)
-//        let container = try decoder.container(keyedBy: CodingKeys.self)
-//        sunset = try container.decode(Int.self, forKey: .sunset)
-//        sunrise = try container.decode(Int.self, forKey: .sunrise)
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.sunset = try container.decode(Int.self, forKey: .sunset)
+        self.sunrise = try container.decode(Int.self, forKey: .sunrise)
+        
+        // Decode properties of the superclass
+        try super.init(from: decoder)
+    }
+    
+    override func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(sunset, forKey: .sunset)
+        try container.encode(sunrise, forKey: .sunrise)
+        
+        // Encode properties of the superclass
+        try super.encode(to: encoder)
     }
 }
