@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C77040D703478EDADEB4E839F298401F /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+				5C53F63B615C49C159CEC84184FD1687 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				A90318251BED9DF57263E157C08FCEF8 /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		28492010468750E9189B71146A6E1DA6 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16C6416F7720EE37A4926509425FF69A /* GooglePlaces.bundle */; };
+		33F1EEA25ED215C272F365AD301A1090 /* Pods-Atmosphere-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D37D6A44BBB502782E492B1B6FDD6D3 /* Pods-Atmosphere-dummy.m */; };
+		60809774074FBF888947F8BC193A88FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		99C43EF2D8261EE284A77ED88700F92F /* Pods-Atmosphere-AtmosphereUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF536071955E2BBF48083E0504EC9215 /* Pods-Atmosphere-AtmosphereUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06A7D2E952A1A3DAE185C486CFBC097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C74030230582DA5432E8A3C68061CBB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D55601A315D52EEEBD6765CC42594F83 /* Pods-AtmosphereTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC0CC12EE3CCE5EB76BD025B84EEBBB /* Pods-AtmosphereTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E04176957DD4F04FCFECD4AC5AFC6433 /* Pods-AtmosphereTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C93E087A64EFC4A345299282867A53C /* Pods-AtmosphereTests-dummy.m */; };
+		EA4873C71EF72E1A0301D09BC9238FC7 /* Pods-Atmosphere-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3554CB248AE9590587596ACF3E92E852 /* Pods-Atmosphere-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1DE125101517AF07B8C88BA022CC2E /* Pods-Atmosphere-AtmosphereUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC927281E7FE782258535887B023D83A /* Pods-Atmosphere-AtmosphereUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19D74976CE771DBEB9E594A3E3C4752C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		23AA2397D54663F9AEC230C25F2D0E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8F27AC74B26C3953597C96E646D5735;
+			remoteInfo = "Pods-Atmosphere";
+		};
+		242C9C7DEF1B31F09597AED59E64994A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285AAD0A8192022DACE2DAFE30D6CD52;
+			remoteInfo = "GooglePlaces-GooglePlacesResources";
+		};
+		D9388C404F74AD2D03AF49D9B18B62F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074491961DEA1FD0D4667A7CFACCF183 /* Pods-Atmosphere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atmosphere.release.xcconfig"; sourceTree = "<group>"; };
+		14BEED7F6D8175C5005CA4E78E1720C7 /* Pods-Atmosphere-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Atmosphere-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16C6416F7720EE37A4926509425FF69A /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Resources/GooglePlacesResources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		1D37D6A44BBB502782E492B1B6FDD6D3 /* Pods-Atmosphere-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Atmosphere-dummy.m"; sourceTree = "<group>"; };
+		1F7441AC73C17EB43F5BE6A556D88A40 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		24E498BAA783D963AFB8F0581FE9F77D /* Pods-AtmosphereTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtmosphereTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		264894D7376A4A73492F1F4685C1832C /* Pods-Atmosphere-AtmosphereUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Atmosphere-AtmosphereUITests.modulemap"; sourceTree = "<group>"; };
+		269FC8A8DDB3B1CF76A1B081F55890B3 /* Pods-Atmosphere-AtmosphereUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Atmosphere-AtmosphereUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2729CFE39B81E1088292BB984C5DF8EC /* Pods-AtmosphereTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtmosphereTests-Info.plist"; sourceTree = "<group>"; };
+		2B7344F68055B8DA19A3354CEF5ADB57 /* Pods-Atmosphere-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Atmosphere-acknowledgements.plist"; sourceTree = "<group>"; };
+		3454F48C4AA5EF28FE644484409C5807 /* Pods-Atmosphere.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Atmosphere.modulemap"; sourceTree = "<group>"; };
+		3554CB248AE9590587596ACF3E92E852 /* Pods-Atmosphere-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Atmosphere-umbrella.h"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38D8B834508B6EED3F077EA1BBB8A3DB /* Pods-AtmosphereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtmosphereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A48EE2EF10610C2253EBB90EB38DD8B /* Pods-Atmosphere-AtmosphereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atmosphere-AtmosphereUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4152E1BCF67E92CC9A682C45810F44F1 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		433FDFA78AFBF7CA85D8FCFD61894832 /* GooglePlaces-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GooglePlaces-xcframeworks.sh"; sourceTree = "<group>"; };
+		4B69D7E9D7070BE679A9EF8FC0190FEA /* Pods-Atmosphere-AtmosphereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atmosphere-AtmosphereUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3FFC1D83B1FED8752A2DC9E44293E2 /* Pods-AtmosphereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtmosphereTests.release.xcconfig"; sourceTree = "<group>"; };
+		576938FA15C8A7B4744852F4087CA4EF /* GooglePlaces.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GooglePlaces.xcframework; path = Frameworks/GooglePlaces.xcframework; sourceTree = "<group>"; };
+		58D55567BE5BB377C4B0D89C1322D23E /* GooglePlaces-GooglePlacesResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GooglePlaces-GooglePlacesResources"; path = GooglePlacesResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C93E087A64EFC4A345299282867A53C /* Pods-AtmosphereTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AtmosphereTests-dummy.m"; sourceTree = "<group>"; };
+		6F59E9CF48AE60BFFF3994CA06101721 /* Pods-AtmosphereTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AtmosphereTests"; path = Pods_AtmosphereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7011B9DB306AAA525E32AAE8FD744428 /* Pods-Atmosphere */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Atmosphere"; path = Pods_Atmosphere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0B494917EEBEBAFBDC9B429BF01969 /* Pods-AtmosphereTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AtmosphereTests.modulemap"; sourceTree = "<group>"; };
+		883D640BD811AB7BCFAFAD85F272A3A4 /* Pods-Atmosphere-AtmosphereUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Atmosphere-AtmosphereUITests-Info.plist"; sourceTree = "<group>"; };
+		8C4970EB22BA8C6FC139E3163B8D5539 /* Pods-Atmosphere-AtmosphereUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atmosphere-AtmosphereUITests-resources.sh"; sourceTree = "<group>"; };
+		8E1602D8107197FFA85A0D5885ABF5C4 /* Pods-Atmosphere-AtmosphereUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Atmosphere-AtmosphereUITests"; path = Pods_Atmosphere_AtmosphereUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EBED4EB3886D28891447D48ABC42FC /* Pods-Atmosphere-AtmosphereUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Atmosphere-AtmosphereUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B4758320CE54386CA471D481E2F3A3F /* ResourceBundle-GooglePlacesResources-GooglePlaces-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GooglePlacesResources-GooglePlaces-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C43D7FF2BFF73FC3C3AC5954584DF336 /* Pods-Atmosphere-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atmosphere-resources.sh"; sourceTree = "<group>"; };
+		CF183607493BFE0D9C3D1CAE6EE0FFCB /* Pods-Atmosphere-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Atmosphere-Info.plist"; sourceTree = "<group>"; };
+		DC927281E7FE782258535887B023D83A /* Pods-Atmosphere-AtmosphereUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Atmosphere-AtmosphereUITests-dummy.m"; sourceTree = "<group>"; };
+		E8E12DA32B3856970D2E3443A2CC8877 /* GMSEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSEmpty.h; path = Sources/GMSEmpty.h; sourceTree = "<group>"; };
+		EDC0CC12EE3CCE5EB76BD025B84EEBBB /* Pods-AtmosphereTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AtmosphereTests-umbrella.h"; sourceTree = "<group>"; };
+		EF536071955E2BBF48083E0504EC9215 /* Pods-Atmosphere-AtmosphereUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Atmosphere-AtmosphereUITests-umbrella.h"; sourceTree = "<group>"; };
+		FAF1B487B74930B6DA2F4870AA0ECC72 /* Pods-AtmosphereTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AtmosphereTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFF86C37415A56AD12D20A15D9CC296C /* Pods-Atmosphere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atmosphere.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE479A5D464848B83AC864BF1EB06CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74030230582DA5432E8A3C68061CBB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE185A964B4D6638D16D396CF77A8417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60809774074FBF888947F8BC193A88FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF59192841A76F70189BF002B9DB443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06A7D2E952A1A3DAE185C486CFBC097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4309F7BBE2E513F344EC9BCBDB7987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278F229E9563ED4B82A1DB0498A58994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58D55567BE5BB377C4B0D89C1322D23E /* GooglePlaces-GooglePlacesResources */,
+				7011B9DB306AAA525E32AAE8FD744428 /* Pods-Atmosphere */,
+				8E1602D8107197FFA85A0D5885ABF5C4 /* Pods-Atmosphere-AtmosphereUITests */,
+				6F59E9CF48AE60BFFF3994CA06101721 /* Pods-AtmosphereTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F09D0409F7D231BAEABEA856909FE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16C6416F7720EE37A4926509425FF69A /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		597DD09851FE078C1650DE98CEE4A87D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCF4CB260A5F61EABD233E0E6BA01459 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A5341177AEA740B862620A795A83A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576938FA15C8A7B4744852F4087CA4EF /* GooglePlaces.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA2021959F676EFAABDB2D247764206 /* Pods-Atmosphere-AtmosphereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				264894D7376A4A73492F1F4685C1832C /* Pods-Atmosphere-AtmosphereUITests.modulemap */,
+				95EBED4EB3886D28891447D48ABC42FC /* Pods-Atmosphere-AtmosphereUITests-acknowledgements.markdown */,
+				269FC8A8DDB3B1CF76A1B081F55890B3 /* Pods-Atmosphere-AtmosphereUITests-acknowledgements.plist */,
+				DC927281E7FE782258535887B023D83A /* Pods-Atmosphere-AtmosphereUITests-dummy.m */,
+				883D640BD811AB7BCFAFAD85F272A3A4 /* Pods-Atmosphere-AtmosphereUITests-Info.plist */,
+				8C4970EB22BA8C6FC139E3163B8D5539 /* Pods-Atmosphere-AtmosphereUITests-resources.sh */,
+				EF536071955E2BBF48083E0504EC9215 /* Pods-Atmosphere-AtmosphereUITests-umbrella.h */,
+				4B69D7E9D7070BE679A9EF8FC0190FEA /* Pods-Atmosphere-AtmosphereUITests.debug.xcconfig */,
+				3A48EE2EF10610C2253EBB90EB38DD8B /* Pods-Atmosphere-AtmosphereUITests.release.xcconfig */,
+			);
+			name = "Pods-Atmosphere-AtmosphereUITests";
+			path = "Target Support Files/Pods-Atmosphere-AtmosphereUITests";
+			sourceTree = "<group>";
+		};
+		ABE784FD70F1ADB8F8E09355ACB502E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				433FDFA78AFBF7CA85D8FCFD61894832 /* GooglePlaces-xcframeworks.sh */,
+				1F7441AC73C17EB43F5BE6A556D88A40 /* GooglePlaces.debug.xcconfig */,
+				4152E1BCF67E92CC9A682C45810F44F1 /* GooglePlaces.release.xcconfig */,
+				9B4758320CE54386CA471D481E2F3A3F /* ResourceBundle-GooglePlacesResources-GooglePlaces-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		BCF4CB260A5F61EABD233E0E6BA01459 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				E8E12DA32B3856970D2E3443A2CC8877 /* GMSEmpty.h */,
+				7A5341177AEA740B862620A795A83A2D /* Frameworks */,
+				33F09D0409F7D231BAEABEA856909FE7 /* Resources */,
+				ABE784FD70F1ADB8F8E09355ACB502E1 /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		C86A9FE0B7B5F00D7ADE7B1F6E1BDDE9 /* Pods-Atmosphere */ = {
+			isa = PBXGroup;
+			children = (
+				3454F48C4AA5EF28FE644484409C5807 /* Pods-Atmosphere.modulemap */,
+				14BEED7F6D8175C5005CA4E78E1720C7 /* Pods-Atmosphere-acknowledgements.markdown */,
+				2B7344F68055B8DA19A3354CEF5ADB57 /* Pods-Atmosphere-acknowledgements.plist */,
+				1D37D6A44BBB502782E492B1B6FDD6D3 /* Pods-Atmosphere-dummy.m */,
+				CF183607493BFE0D9C3D1CAE6EE0FFCB /* Pods-Atmosphere-Info.plist */,
+				C43D7FF2BFF73FC3C3AC5954584DF336 /* Pods-Atmosphere-resources.sh */,
+				3554CB248AE9590587596ACF3E92E852 /* Pods-Atmosphere-umbrella.h */,
+				FFF86C37415A56AD12D20A15D9CC296C /* Pods-Atmosphere.debug.xcconfig */,
+				074491961DEA1FD0D4667A7CFACCF183 /* Pods-Atmosphere.release.xcconfig */,
+			);
+			name = "Pods-Atmosphere";
+			path = "Target Support Files/Pods-Atmosphere";
+			sourceTree = "<group>";
+		};
+		C8FF92EB21DD4D68DC48B718BCB736C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C86A9FE0B7B5F00D7ADE7B1F6E1BDDE9 /* Pods-Atmosphere */,
+				8FA2021959F676EFAABDB2D247764206 /* Pods-Atmosphere-AtmosphereUITests */,
+				D3E8A69B1D973CA784DBA91A621850B5 /* Pods-AtmosphereTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				597DD09851FE078C1650DE98CEE4A87D /* Pods */,
+				278F229E9563ED4B82A1DB0498A58994 /* Products */,
+				C8FF92EB21DD4D68DC48B718BCB736C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E8A69B1D973CA784DBA91A621850B5 /* Pods-AtmosphereTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F0B494917EEBEBAFBDC9B429BF01969 /* Pods-AtmosphereTests.modulemap */,
+				FAF1B487B74930B6DA2F4870AA0ECC72 /* Pods-AtmosphereTests-acknowledgements.markdown */,
+				24E498BAA783D963AFB8F0581FE9F77D /* Pods-AtmosphereTests-acknowledgements.plist */,
+				6C93E087A64EFC4A345299282867A53C /* Pods-AtmosphereTests-dummy.m */,
+				2729CFE39B81E1088292BB984C5DF8EC /* Pods-AtmosphereTests-Info.plist */,
+				EDC0CC12EE3CCE5EB76BD025B84EEBBB /* Pods-AtmosphereTests-umbrella.h */,
+				38D8B834508B6EED3F077EA1BBB8A3DB /* Pods-AtmosphereTests.debug.xcconfig */,
+				4C3FFC1D83B1FED8752A2DC9E44293E2 /* Pods-AtmosphereTests.release.xcconfig */,
+			);
+			name = "Pods-AtmosphereTests";
+			path = "Target Support Files/Pods-AtmosphereTests";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CE6402ACD335435CC849D902A7ABAE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55601A315D52EEEBD6765CC42594F83 /* Pods-AtmosphereTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE4E067F383740F76A803A84254791C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4873C71EF72E1A0301D09BC9238FC7 /* Pods-Atmosphere-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E0A97F75AD08FA114E4856DB504D79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C43EF2D8261EE284A77ED88700F92F /* Pods-Atmosphere-AtmosphereUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		285AAD0A8192022DACE2DAFE30D6CD52 /* GooglePlaces-GooglePlacesResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7CA43EB24A17C729BA48A061DE50F8 /* Build configuration list for PBXNativeTarget "GooglePlaces-GooglePlacesResources" */;
+			buildPhases = (
+				1858DD18BA68AEB19E7EF1252FCC0728 /* Sources */,
+				ED4309F7BBE2E513F344EC9BCBDB7987 /* Frameworks */,
+				1A48847FCE4775C4F42A92A633B31263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GooglePlaces-GooglePlacesResources";
+			productName = GooglePlacesResources;
+			productReference = 58D55567BE5BB377C4B0D89C1322D23E /* GooglePlaces-GooglePlacesResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		766D3FD0695AD8D6B417B7D069652335 /* Pods-Atmosphere-AtmosphereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E6F81E1219A4CF62129CD85F9FB505 /* Build configuration list for PBXNativeTarget "Pods-Atmosphere-AtmosphereUITests" */;
+			buildPhases = (
+				B4E0A97F75AD08FA114E4856DB504D79 /* Headers */,
+				4017D9F64721342F667267E48C640972 /* Sources */,
+				AE185A964B4D6638D16D396CF77A8417 /* Frameworks */,
+				69AAE0D658A5AA7E6FE00627AB63FE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761F248E028FB3A35298CAA6E9414ED6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Atmosphere-AtmosphereUITests";
+			productName = Pods_Atmosphere_AtmosphereUITests;
+			productReference = 8E1602D8107197FFA85A0D5885ABF5C4 /* Pods-Atmosphere-AtmosphereUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8F27AC74B26C3953597C96E646D5735 /* Pods-Atmosphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51603B8A324ACD5F54AE26A9EF2963F3 /* Build configuration list for PBXNativeTarget "Pods-Atmosphere" */;
+			buildPhases = (
+				3EE4E067F383740F76A803A84254791C /* Headers */,
+				4661D1FE13CFDD1DC34B7E26915015E4 /* Sources */,
+				BFF59192841A76F70189BF002B9DB443 /* Frameworks */,
+				5812ED37B95E3DD1A7394D2B49A6479A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE256456352924F355C936C201B48D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Atmosphere";
+			productName = Pods_Atmosphere;
+			productReference = 7011B9DB306AAA525E32AAE8FD744428 /* Pods-Atmosphere */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC56CAF720A29BF9ED07555383D3FDB8 /* Pods-AtmosphereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1FC38E8798F0F5EAF3B4CFBF081528 /* Build configuration list for PBXNativeTarget "Pods-AtmosphereTests" */;
+			buildPhases = (
+				0CE6402ACD335435CC849D902A7ABAE2 /* Headers */,
+				1274910E8A5E3F4DF3C2907B1A7D6112 /* Sources */,
+				1AE479A5D464848B83AC864BF1EB06CF /* Frameworks */,
+				01D6A86173C65DDF2979DC72BB95A212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432871B1692EF4425A8591F2EDA8C606 /* PBXTargetDependency */,
+			);
+			name = "Pods-AtmosphereTests";
+			productName = Pods_AtmosphereTests;
+			productReference = 6F59E9CF48AE60BFFF3994CA06101721 /* Pods-AtmosphereTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 278F229E9563ED4B82A1DB0498A58994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
+				285AAD0A8192022DACE2DAFE30D6CD52 /* GooglePlaces-GooglePlacesResources */,
+				C8F27AC74B26C3953597C96E646D5735 /* Pods-Atmosphere */,
+				766D3FD0695AD8D6B417B7D069652335 /* Pods-Atmosphere-AtmosphereUITests */,
+				EC56CAF720A29BF9ED07555383D3FDB8 /* Pods-AtmosphereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D6A86173C65DDF2979DC72BB95A212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A48847FCE4775C4F42A92A633B31263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28492010468750E9189B71146A6E1DA6 /* GooglePlaces.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812ED37B95E3DD1A7394D2B49A6479A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AAE0D658A5AA7E6FE00627AB63FE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C53F63B615C49C159CEC84184FD1687 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GooglePlaces/GooglePlaces-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GooglePlaces/GooglePlaces-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GooglePlaces/GooglePlaces-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1274910E8A5E3F4DF3C2907B1A7D6112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04176957DD4F04FCFECD4AC5AFC6433 /* Pods-AtmosphereTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1858DD18BA68AEB19E7EF1252FCC0728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4017D9F64721342F667267E48C640972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1DE125101517AF07B8C88BA022CC2E /* Pods-Atmosphere-AtmosphereUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4661D1FE13CFDD1DC34B7E26915015E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F1EEA25ED215C272F365AD301A1090 /* Pods-Atmosphere-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		432871B1692EF4425A8591F2EDA8C606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Atmosphere";
+			target = C8F27AC74B26C3953597C96E646D5735 /* Pods-Atmosphere */;
+			targetProxy = 23AA2397D54663F9AEC230C25F2D0E06 /* PBXContainerItemProxy */;
+		};
+		761F248E028FB3A35298CAA6E9414ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 19D74976CE771DBEB9E594A3E3C4752C /* PBXContainerItemProxy */;
+		};
+		A90318251BED9DF57263E157C08FCEF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GooglePlaces-GooglePlacesResources";
+			target = 285AAD0A8192022DACE2DAFE30D6CD52 /* GooglePlaces-GooglePlacesResources */;
+			targetProxy = 242C9C7DEF1B31F09597AED59E64994A /* PBXContainerItemProxy */;
+		};
+		EEE256456352924F355C936C201B48D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = D9388C404F74AD2D03AF49D9B18B62F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0294E14E225E1D28BFB9CB27413C3E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4152E1BCF67E92CC9A682C45810F44F1 /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AF7043535FFDA7AE31F2CE8246A436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7441AC73C17EB43F5BE6A556D88A40 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		286DF6FE12973C3426B94B851F58EE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4152E1BCF67E92CC9A682C45810F44F1 /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GooglePlaces";
+				IBSC_MODULE = GooglePlaces;
+				INFOPLIST_FILE = "Target Support Files/GooglePlaces/ResourceBundle-GooglePlacesResources-GooglePlaces-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = GooglePlacesResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3E5AF5D8519508C47901DCE183E279DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A48EE2EF10610C2253EBB90EB38DD8B /* Pods-Atmosphere-AtmosphereUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Atmosphere-AtmosphereUITests/Pods-Atmosphere-AtmosphereUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Atmosphere-AtmosphereUITests/Pods-Atmosphere-AtmosphereUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C8612A59D25CD6990E4C26318A6F9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074491961DEA1FD0D4667A7CFACCF183 /* Pods-Atmosphere.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Atmosphere/Pods-Atmosphere-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Atmosphere/Pods-Atmosphere.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		815FF599B6EC67D123CC98FAFC254E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D8B834508B6EED3F077EA1BBB8A3DB /* Pods-AtmosphereTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-AtmosphereTests/Pods-AtmosphereTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AtmosphereTests/Pods-AtmosphereTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3ED1E3A9229CB79369F46F7B4830218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF86C37415A56AD12D20A15D9CC296C /* Pods-Atmosphere.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Atmosphere/Pods-Atmosphere-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Atmosphere/Pods-Atmosphere.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4FAB6F9DCC5E369735F57900EF1E568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3FFC1D83B1FED8752A2DC9E44293E2 /* Pods-AtmosphereTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-AtmosphereTests/Pods-AtmosphereTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AtmosphereTests/Pods-AtmosphereTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBE0D0E9260B7788C436A51B2CE6E695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7441AC73C17EB43F5BE6A556D88A40 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GooglePlaces";
+				IBSC_MODULE = GooglePlaces;
+				INFOPLIST_FILE = "Target Support Files/GooglePlaces/ResourceBundle-GooglePlacesResources-GooglePlaces-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = GooglePlacesResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CE3FEDA516FA4DD0E08C26CA86D09A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B69D7E9D7070BE679A9EF8FC0190FEA /* Pods-Atmosphere-AtmosphereUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Atmosphere-AtmosphereUITests/Pods-Atmosphere-AtmosphereUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Atmosphere-AtmosphereUITests/Pods-Atmosphere-AtmosphereUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51603B8A324ACD5F54AE26A9EF2963F3 /* Build configuration list for PBXNativeTarget "Pods-Atmosphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3ED1E3A9229CB79369F46F7B4830218 /* Debug */,
+				4C8612A59D25CD6990E4C26318A6F9A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7CA43EB24A17C729BA48A061DE50F8 /* Build configuration list for PBXNativeTarget "GooglePlaces-GooglePlacesResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE0D0E9260B7788C436A51B2CE6E695 /* Debug */,
+				286DF6FE12973C3426B94B851F58EE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77040D703478EDADEB4E839F298401F /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AF7043535FFDA7AE31F2CE8246A436 /* Debug */,
+				0294E14E225E1D28BFB9CB27413C3E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E6F81E1219A4CF62129CD85F9FB505 /* Build configuration list for PBXNativeTarget "Pods-Atmosphere-AtmosphereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3FEDA516FA4DD0E08C26CA86D09A16 /* Debug */,
+				3E5AF5D8519508C47901DCE183E279DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1FC38E8798F0F5EAF3B4CFBF081528 /* Build configuration list for PBXNativeTarget "Pods-AtmosphereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815FF599B6EC67D123CC98FAFC254E74 /* Debug */,
+				C4FAB6F9DCC5E369735F57900EF1E568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
