@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct HeaderView: View {
-    @ObservedObject var cityVM : CityViewModel
+    //@ObservedObject var cityVM : CityViewModel
+    @ObservedObject var placesVM = PlacesModel()
     @State private var searchedText = "Pergue"
     
     var body: some View {
@@ -16,7 +17,8 @@ struct HeaderView: View {
             TextField("", text: $searchedText)
                 .padding(.leading, 25)
             Button(action: {
-                cityVM.city = searchedText
+               // placesVM.searchItem = searchedText
+                //cityVM.city = searchedText
             }, label: {
                 ZStack{
                     RoundedRectangle(cornerRadius: 20)
@@ -39,5 +41,5 @@ struct HeaderView: View {
 }
 
 #Preview {
-    HeaderView(cityVM: CityViewModel())
+    HeaderView()
 }

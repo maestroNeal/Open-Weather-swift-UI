@@ -33,6 +33,7 @@
 		B74E36DE2CBBC3A300BC0158 /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E36DD2CBBC3A300BC0158 /* HourlyWeatherView.swift */; };
 		B74E36E12CBBCFB800BC0158 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E36E02CBBCFB800BC0158 /* DailyWeatherView.swift */; };
 		B78819172CBBDED300BEEA6B /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78819162CBBDED300BEEA6B /* CityView.swift */; };
+		B799D9892CDF992D00EB7531 /* PlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B799D9882CDF992D00EB7531 /* PlacesModel.swift */; };
 		B7DA06002CBAD26500821FB5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA05FF2CBAD26500821FB5 /* HeaderView.swift */; };
 		CC07A74E2C53840B004E2A7B /* spring.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A73F2C53840A004E2A7B /* spring.json */; };
 		CC07A74F2C53840B004E2A7B /* butterFly.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7402C53840A004E2A7B /* butterFly.json */; };
@@ -102,6 +103,7 @@
 		B74E36DD2CBBC3A300BC0158 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
 		B74E36E02CBBCFB800BC0158 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
 		B78819162CBBDED300BEEA6B /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		B799D9882CDF992D00EB7531 /* PlacesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesModel.swift; sourceTree = "<group>"; };
 		B7DA05FF2CBAD26500821FB5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		CC07A73F2C53840A004E2A7B /* spring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spring.json; sourceTree = "<group>"; };
 		CC07A7402C53840A004E2A7B /* butterFly.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = butterFly.json; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				17996E1A2C4D026A00846694 /* CityViewModel */,
+				B799D9882CDF992D00EB7531 /* PlacesModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -372,7 +375,6 @@
 				2904B7E3E7B0DA7C234A0109 /* Pods-AtmosphereTests.debug.xcconfig */,
 				46680658EE8D4180582F6E51 /* Pods-AtmosphereTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -654,6 +656,7 @@
 				17996E172C4CE87000846694 /* WeatherDetails.swift in Sources */,
 				B74E36D82CBBAB2A00BC0158 /* CityDateView.swift in Sources */,
 				172A00D42C48599600D0E010 /* ContentView.swift in Sources */,
+				B799D9892CDF992D00EB7531 /* PlacesModel.swift in Sources */,
 				172CFCBF2C4C4FA6009FBCDD /* NetworkManager.swift in Sources */,
 				17996E222C4DAEC400846694 /* LottieVIew.swift in Sources */,
 				172A00D22C48599600D0E010 /* AtmosphereApp.swift in Sources */,
