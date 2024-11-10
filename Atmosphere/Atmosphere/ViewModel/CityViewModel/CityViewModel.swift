@@ -112,23 +112,6 @@ final class CityViewModel : ObservableObject {
             
         }
     }
-    /*
-     
-     00 01
-     11 10
-     
-     */
-//    func checkDataInloop (from n : Int){
-//        while (n>0){
-//            n = n - 1
-//            for i in 0...n-1 {
-//                for j in 0...1 {
-//                    
-//                }
-//            }
-//        }
-//        
-//    }
     
     
     

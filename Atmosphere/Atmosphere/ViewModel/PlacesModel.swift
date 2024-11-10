@@ -87,8 +87,3 @@ struct GooglePlacesAutocompleteView: UIViewControllerRepresentable {
     }
     
 }
-
-enum PlaceFilterType {
-    case city
-    case noFilter
-}
