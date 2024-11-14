@@ -1,37 +1,14 @@
 //
-//  customOutLine.swift
+//  CustomShape.swift
 //  Atmosphere
 //
-//  Created by Rahul Gangwar on 10/11/24.
+//  Created by Rahul Gangwar on 11/11/24.
 //
 
 import SwiftUI
 
-//struct CustomShapeWithDottedLine: View {
-//    var archHeight: CGFloat = 10.0
-//    var notchRadius: CGFloat = 10
-//    var dashPattern: [CGFloat] = [5, 5] // Adjust for dotted appearance
-//    
-//    var body: some View {
-//        ZStack {
-//            // Main shape with rounded corners and circular notches
-//            CustomShape(archHeight: archHeight, notchRadius: notchRadius)
-//                .stroke(Color.red, lineWidth: 2)
-//                .frame(width: 200, height: 150)
-//            
-//            // Dotted line connecting the notches
-//            Path { path in
-//                let centerY = 150 / 2 // Middle of the shape
-//                path.move(to: CGPoint(x: 0, y: centerY))
-//                path.addLine(to: CGPoint(x: 500, y: centerY))
-//            }
-//            .stroke(Color.blue, style: StrokeStyle(lineWidth: 2, dash: dashPattern))
-//        }
-//        .padding()
-//    }
-//}
-
 struct CustomShape: Shape {
+    
     var archHeight: CGFloat
     var notchRadius: CGFloat
     
@@ -94,16 +71,4 @@ struct CustomShape: Shape {
         
         return path
     }
-}
-
-struct ContentViewNew22: View {
-    var body: some View {
-        CustomShape(archHeight: 30, notchRadius: 10)
-            .fill(appColors.buttonColor.color)
-            .padding()
-    }
-}
-
-#Preview {
-    ContentViewNew22()
 }
