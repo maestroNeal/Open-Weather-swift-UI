@@ -14,19 +14,23 @@ struct HomeView: View {
             appColors.primaryColor.color
                 .edgesIgnoringSafeArea(.all)
             
-            CustomShapeWithDottedLine(archHeight: 30, notchRadius: 10, fromTop: 280,fromLeft: 10,fromRight: 10,lineColor: appColors.primaryColor.color, fillColor: appColors.primaryTextColor.color)
+            CustomShapeWithDottedLine( animeName: "", archHeight: 30, notchRadius: 10, fromTop: 180,fromLeft: 10,fromRight: 10,lineColor: appColors.primaryColor.color, fillColor: .white)
             
             VStack{
                 
-                NewHeaderView(headerText: "Home", isBackRequired: false, isSearchTapped: {
+                NewHeaderView(headerText: "Noida", isBackRequired: false, isSearchTapped: {
                 })
-                .padding(.top, 50)
+                .padding(.top, 0)
                 Spacer()
             }
             
             
         }
-        
+    }
+    private func currentData() -> some View {
+        ZStack{
+            
+        }
     }
 }
 

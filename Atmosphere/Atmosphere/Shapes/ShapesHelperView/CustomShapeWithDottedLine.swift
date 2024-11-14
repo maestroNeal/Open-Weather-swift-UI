@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomShapeWithDottedLine: View {
-    
+    var animeName: String
     var archHeight: CGFloat
     var notchRadius: CGFloat
     var fromTop: CGFloat = 0.0
@@ -30,6 +30,11 @@ struct CustomShapeWithDottedLine: View {
                 .padding(.leading, fromLeft)
                 .padding(.trailing, fromRight)
             
+            LottieView(animeName: animeName, loopMode: .loop)
+                            .frame(width: screenWidth, height: screenHeight)
+                            .padding(.top, fromTop)
+                            .padding(.leading, fromLeft)
+                            .padding(.trailing, fromRight)
             
             Path { path in
                 let lineEndX = screenWidth - notchRadius * 2 + fromRight + fromLeft
@@ -44,5 +49,5 @@ struct CustomShapeWithDottedLine: View {
 }
 
 #Preview {
-    CustomShapeWithDottedLine(archHeight: 30, notchRadius: 10, fromTop: 200,fromLeft: 10,fromRight: 10)
+    CustomShapeWithDottedLine( animeName: "winterdrink", archHeight: 30, notchRadius: 10, fromTop: 0,fromLeft: 10,fromRight: 10)
 }

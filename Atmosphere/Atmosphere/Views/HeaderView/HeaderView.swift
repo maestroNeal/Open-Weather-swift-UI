@@ -77,7 +77,7 @@ struct NewHeaderView: View {
                 ZStack {
                     RectanleBottomLeftArch(archHeight: 20)
                         .fill(appColors.lightPrimaryColor.color)
-                        .frame(width: 70, height: 90)
+                        .frame(width: 70, height: 110)
                         .padding(.bottom)
                         .padding(.leading)
                     
@@ -92,9 +92,9 @@ struct NewHeaderView: View {
                 }
             }
             .frame(maxWidth: .infinity)
-            .frame(height: 120)
+            .frame(height: 130)
         }
-        .frame(height: 120)
+        .frame(height: 130)
     }
 }
 
