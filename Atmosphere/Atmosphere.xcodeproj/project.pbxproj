@@ -27,12 +27,6 @@
 		17996E222C4DAEC400846694 /* LottieVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17996E212C4DAEC400846694 /* LottieVIew.swift */; };
 		252E7B1BCDE7CF654935AACD /* Pods_AtmosphereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E214ED594100F5D7FD3E9F01 /* Pods_AtmosphereTests.framework */; };
 		36ABADC11E54AA69BA637902 /* Pods_Atmosphere_AtmosphereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E9698C3B076523F1896F6A /* Pods_Atmosphere_AtmosphereUITests.framework */; };
-		B7055E4A2CE693BF0015C8FC /* love.json in Resources */ = {isa = PBXBuildFile; fileRef = B7055E492CE693BF0015C8FC /* love.json */; };
-		B7055E522CE69E0A0015C8FC /* floatingSun.json in Resources */ = {isa = PBXBuildFile; fileRef = B7055E4D2CE69E0A0015C8FC /* floatingSun.json */; };
-		B7055E532CE69E0A0015C8FC /* nightWithStars.json in Resources */ = {isa = PBXBuildFile; fileRef = B7055E4E2CE69E0A0015C8FC /* nightWithStars.json */; };
-		B7055E542CE69E0A0015C8FC /* sun.json in Resources */ = {isa = PBXBuildFile; fileRef = B7055E4F2CE69E0A0015C8FC /* sun.json */; };
-		B7055E562CE69E0A0015C8FC /* rainNew.json in Resources */ = {isa = PBXBuildFile; fileRef = B7055E512CE69E0A0015C8FC /* rainNew.json */; };
-		B7055E582CE69F3F0015C8FC /* winterdrink.json in Resources */ = {isa = PBXBuildFile; fileRef = B7055E572CE69F3F0015C8FC /* winterdrink.json */; };
 		B71A10892CA7139200AB2A3E /* WeatherSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71A10882CA7139200AB2A3E /* WeatherSubclass.swift */; };
 		B74E36D82CBBAB2A00BC0158 /* CityDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E36D72CBBAB2A00BC0158 /* CityDateView.swift */; };
 		B74E36DB2CBBAD9000BC0158 /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E36DA2CBBAD9000BC0158 /* TodayWeatherView.swift */; };
@@ -46,6 +40,20 @@
 		B78F89642CE0965600BE08CB /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F89632CE0965600BE08CB /* AppEnums.swift */; };
 		B78F89672CE0BA5D00BE08CB /* RectanleBottomLeftArch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F89662CE0BA5D00BE08CB /* RectanleBottomLeftArch.swift */; };
 		B799D9892CDF992D00EB7531 /* PlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B799D9882CDF992D00EB7531 /* PlacesModel.swift */; };
+		B7BE24D42CEA17A3002E9F18 /* watch.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24D32CEA17A3002E9F18 /* watch.json */; };
+		B7BE24E22CEA1C08002E9F18 /* winterDay.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24D52CEA1C06002E9F18 /* winterDay.json */; };
+		B7BE24E32CEA1C08002E9F18 /* sun.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24D62CEA1C06002E9F18 /* sun.json */; };
+		B7BE24E42CEA1C08002E9F18 /* love.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24D72CEA1C06002E9F18 /* love.json */; };
+		B7BE24E52CEA1C08002E9F18 /* nightRain.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24D82CEA1C07002E9F18 /* nightRain.json */; };
+		B7BE24E62CEA1C08002E9F18 /* clearNight.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24D92CEA1C07002E9F18 /* clearNight.json */; };
+		B7BE24E72CEA1C08002E9F18 /* nightWithStars.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24DA2CEA1C07002E9F18 /* nightWithStars.json */; };
+		B7BE24E82CEA1C08002E9F18 /* clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24DB2CEA1C07002E9F18 /* clouds.json */; };
+		B7BE24E92CEA1C08002E9F18 /* rainNew.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24DC2CEA1C07002E9F18 /* rainNew.json */; };
+		B7BE24EA2CEA1C08002E9F18 /* floatingSun.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24DD2CEA1C07002E9F18 /* floatingSun.json */; };
+		B7BE24EB2CEA1C08002E9F18 /* watch.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24DE2CEA1C07002E9F18 /* watch.json */; };
+		B7BE24EC2CEA1C08002E9F18 /* winterdrink.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24DF2CEA1C08002E9F18 /* winterdrink.json */; };
+		B7BE24ED2CEA1C08002E9F18 /* nightMusic.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24E02CEA1C08002E9F18 /* nightMusic.json */; };
+		B7BE24EE2CEA1C08002E9F18 /* sunnyDay.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE24E12CEA1C08002E9F18 /* sunnyDay.json */; };
 		B7DA06002CBAD26500821FB5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA05FF2CBAD26500821FB5 /* HeaderView.swift */; };
 		CC07A74E2C53840B004E2A7B /* spring.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A73F2C53840A004E2A7B /* spring.json */; };
 		CC07A74F2C53840B004E2A7B /* butterFly.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7402C53840A004E2A7B /* butterFly.json */; };
@@ -107,12 +115,6 @@
 		452A4BDE34EBB1E969F517B9 /* Pods-Atmosphere-AtmosphereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atmosphere-AtmosphereUITests.debug.xcconfig"; path = "Target Support Files/Pods-Atmosphere-AtmosphereUITests/Pods-Atmosphere-AtmosphereUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		46680658EE8D4180582F6E51 /* Pods-AtmosphereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtmosphereTests.release.xcconfig"; path = "Target Support Files/Pods-AtmosphereTests/Pods-AtmosphereTests.release.xcconfig"; sourceTree = "<group>"; };
 		72E9698C3B076523F1896F6A /* Pods_Atmosphere_AtmosphereUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atmosphere_AtmosphereUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7055E492CE693BF0015C8FC /* love.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = love.json; path = ../../../../../../../Downloads/love.json; sourceTree = "<group>"; };
-		B7055E4D2CE69E0A0015C8FC /* floatingSun.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = floatingSun.json; path = ../../../../../../../Downloads/floatingSun.json; sourceTree = "<group>"; };
-		B7055E4E2CE69E0A0015C8FC /* nightWithStars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nightWithStars.json; path = ../../../../../../../Downloads/nightWithStars.json; sourceTree = "<group>"; };
-		B7055E4F2CE69E0A0015C8FC /* sun.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sun.json; path = ../../../../../../../Downloads/sun.json; sourceTree = "<group>"; };
-		B7055E512CE69E0A0015C8FC /* rainNew.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rainNew.json; path = ../../../../../../../Downloads/rainNew.json; sourceTree = "<group>"; };
-		B7055E572CE69F3F0015C8FC /* winterdrink.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = winterdrink.json; path = ../../../../../../../Downloads/winterdrink.json; sourceTree = "<group>"; };
 		B71A10882CA7139200AB2A3E /* WeatherSubclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSubclass.swift; sourceTree = "<group>"; };
 		B74E36D72CBBAB2A00BC0158 /* CityDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDateView.swift; sourceTree = "<group>"; };
 		B74E36DA2CBBAD9000BC0158 /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,20 @@
 		B78F89632CE0965600BE08CB /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
 		B78F89662CE0BA5D00BE08CB /* RectanleBottomLeftArch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanleBottomLeftArch.swift; sourceTree = "<group>"; };
 		B799D9882CDF992D00EB7531 /* PlacesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesModel.swift; sourceTree = "<group>"; };
+		B7BE24D32CEA17A3002E9F18 /* watch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = watch.json; sourceTree = "<group>"; };
+		B7BE24D52CEA1C06002E9F18 /* winterDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winterDay.json; sourceTree = "<group>"; };
+		B7BE24D62CEA1C06002E9F18 /* sun.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sun.json; sourceTree = "<group>"; };
+		B7BE24D72CEA1C06002E9F18 /* love.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = love.json; sourceTree = "<group>"; };
+		B7BE24D82CEA1C07002E9F18 /* nightRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightRain.json; sourceTree = "<group>"; };
+		B7BE24D92CEA1C07002E9F18 /* clearNight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clearNight.json; sourceTree = "<group>"; };
+		B7BE24DA2CEA1C07002E9F18 /* nightWithStars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightWithStars.json; sourceTree = "<group>"; };
+		B7BE24DB2CEA1C07002E9F18 /* clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clouds.json; sourceTree = "<group>"; };
+		B7BE24DC2CEA1C07002E9F18 /* rainNew.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rainNew.json; sourceTree = "<group>"; };
+		B7BE24DD2CEA1C07002E9F18 /* floatingSun.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = floatingSun.json; sourceTree = "<group>"; };
+		B7BE24DE2CEA1C07002E9F18 /* watch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = watch.json; path = "../../../../../../../Downloads/untitled folder/watch.json"; sourceTree = "<group>"; };
+		B7BE24DF2CEA1C08002E9F18 /* winterdrink.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winterdrink.json; sourceTree = "<group>"; };
+		B7BE24E02CEA1C08002E9F18 /* nightMusic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightMusic.json; sourceTree = "<group>"; };
+		B7BE24E12CEA1C08002E9F18 /* sunnyDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunnyDay.json; sourceTree = "<group>"; };
 		B7DA05FF2CBAD26500821FB5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		CC07A73F2C53840A004E2A7B /* spring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spring.json; sourceTree = "<group>"; };
 		CC07A7402C53840A004E2A7B /* butterFly.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = butterFly.json; sourceTree = "<group>"; };
@@ -412,14 +428,22 @@
 		CC07A73D2C537478004E2A7B /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				B7055E572CE69F3F0015C8FC /* winterdrink.json */,
+				B7BE24E12CEA1C08002E9F18 /* sunnyDay.json */,
+				B7BE24D32CEA17A3002E9F18 /* watch.json */,
+				B7BE24E02CEA1C08002E9F18 /* nightMusic.json */,
+				B7BE24D92CEA1C07002E9F18 /* clearNight.json */,
+				B7BE24DB2CEA1C07002E9F18 /* clouds.json */,
+				B7BE24DD2CEA1C07002E9F18 /* floatingSun.json */,
+				B7BE24D72CEA1C06002E9F18 /* love.json */,
+				B7BE24D82CEA1C07002E9F18 /* nightRain.json */,
+				B7BE24DA2CEA1C07002E9F18 /* nightWithStars.json */,
+				B7BE24DC2CEA1C07002E9F18 /* rainNew.json */,
+				B7BE24D62CEA1C06002E9F18 /* sun.json */,
+				B7BE24DE2CEA1C07002E9F18 /* watch.json */,
+				B7BE24D52CEA1C06002E9F18 /* winterDay.json */,
+				B7BE24DF2CEA1C08002E9F18 /* winterdrink.json */,
 				CC07A7402C53840A004E2A7B /* butterFly.json */,
-				B7055E4D2CE69E0A0015C8FC /* floatingSun.json */,
-				B7055E4E2CE69E0A0015C8FC /* nightWithStars.json */,
-				B7055E512CE69E0A0015C8FC /* rainNew.json */,
-				B7055E4F2CE69E0A0015C8FC /* sun.json */,
 				CC07A74B2C53840A004E2A7B /* fall-tree.json */,
-				B7055E492CE693BF0015C8FC /* love.json */,
 				CC07A74A2C53840A004E2A7B /* fall.json */,
 				CC07A7492C53840A004E2A7B /* flyingBirds.json */,
 				CC07A7452C53840A004E2A7B /* normalRainy.json */,
@@ -581,27 +605,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7055E522CE69E0A0015C8FC /* floatingSun.json in Resources */,
 				CC07A7572C53840B004E2A7B /* summer.json in Resources */,
+				B7BE24EA2CEA1C08002E9F18 /* floatingSun.json in Resources */,
+				B7BE24EB2CEA1C08002E9F18 /* watch.json in Resources */,
 				172A00D92C48599D00D0E010 /* Preview Assets.xcassets in Resources */,
+				B7BE24E72CEA1C08002E9F18 /* nightWithStars.json in Resources */,
 				CC07A74E2C53840B004E2A7B /* spring.json in Resources */,
-				B7055E562CE69E0A0015C8FC /* rainNew.json in Resources */,
+				B7BE24D42CEA17A3002E9F18 /* watch.json in Resources */,
+				B7BE24E32CEA1C08002E9F18 /* sun.json in Resources */,
+				B7BE24E42CEA1C08002E9F18 /* love.json in Resources */,
 				CC07A75C2C53840B004E2A7B /* winter.json in Resources */,
 				CC07A75A2C53840B004E2A7B /* fall-tree.json in Resources */,
+				B7BE24E52CEA1C08002E9F18 /* nightRain.json in Resources */,
 				172A00D62C48599D00D0E010 /* Assets.xcassets in Resources */,
 				CC07A7542C53840B004E2A7B /* normalRainy.json in Resources */,
-				B7055E542CE69E0A0015C8FC /* sun.json in Resources */,
+				B7BE24EC2CEA1C08002E9F18 /* winterdrink.json in Resources */,
 				CC07A7502C53840B004E2A7B /* rainbow.json in Resources */,
+				B7BE24E92CEA1C08002E9F18 /* rainNew.json in Resources */,
 				CC07A7512C53840B004E2A7B /* sunWithCluds.json in Resources */,
 				CC07A7582C53840B004E2A7B /* flyingBirds.json in Resources */,
+				B7BE24E22CEA1C08002E9F18 /* winterDay.json in Resources */,
 				CC07A7592C53840B004E2A7B /* fall.json in Resources */,
-				B7055E532CE69E0A0015C8FC /* nightWithStars.json in Resources */,
 				CC07A74F2C53840B004E2A7B /* butterFly.json in Resources */,
+				B7BE24E62CEA1C08002E9F18 /* clearNight.json in Resources */,
 				CC07A7522C53840B004E2A7B /* sunny.json in Resources */,
-				B7055E4A2CE693BF0015C8FC /* love.json in Resources */,
+				B7BE24EE2CEA1C08002E9F18 /* sunnyDay.json in Resources */,
+				B7BE24ED2CEA1C08002E9F18 /* nightMusic.json in Resources */,
 				CC07A7532C53840B004E2A7B /* winds.json in Resources */,
-				B7055E582CE69F3F0015C8FC /* winterdrink.json in Resources */,
 				CC07A7552C53840B004E2A7B /* rain.json in Resources */,
+				B7BE24E82CEA1C08002E9F18 /* clouds.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
